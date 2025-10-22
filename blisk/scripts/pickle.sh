@@ -1,37 +1,54 @@
 #!/bin/zsh
 echo '
-                        ++;++x++xx;;;    ::::: ;x+xXXXxXXXXXXx    
-                     +XXXXXXXXXXXXXXX++;::::::;xx++;    +xxXXXX   
-                  ;xXx++xXXXXXXXXXxxXXx+++;::::::       ++   +X+  
-               ;XXXX++XXXXXxXXXXXXXXXXX+;;;;;::;;;;;          ;   
-              ;xxXXX+xXXXXXXXXXXXXXXXXXXx;;;;;;;::;;;             
-             ;xxXxXXXXXXXXXXXXXXXXXXXXXXXx;;;;;::...;;            
-         ++++xXxxXxxxx+xXXXXXXXxXXXXX$XXXXx;;;;;;;;;              
-          +xXXxXXxxxxx+;XXXXX$$XXXXXXXXXXXx+;;;;;;                
-           ++xXXXXxxxx+XXXXXXXXxxXxXXXXXXXXx;;;;;;                
-          +xxXXXXXXXx+XXXXXXXXXx+xXxXXXXXXxx+;;;;;                
-         +xxXXXXXXXXx++XXXXXXXX+x+xXxXXXXXxXx;:;;;;;;;;;;;;;    
-     xx++xxXXXXXxxXX+x$xXXXXxXX+X$x+xxxXXXXxXx;;;;;;;;;;;;;;;;   
-   xxXXxxXXXXXXXxXX+xXX$XxXXxxxX$$$Xx+++XXXxxXx;;;;;;;;;;;;;;;;  
- xxXXxXXXXXXXXXxxXxx$$$XX$xxXxxXXX$$$$x++xXxxXX+;;;;;;;;;;;   ;; 
-xXXx +XXXxXXXXxx+;++XXx+xX$XxxxxxXXx+;:+XX+xXXXx;;;;;;;;;;;;;  ;;
-XX  +xxXXx+XXXX+X$xx;..;$$$XX$$$X+x..;+$$$XxXXX;;;;;;;;;;;;;;;  ;;
-XxxxXx+xX+;;+xXxX$$X;+X$$$$X$$$$$X;;xX$XXXxXXx;;;;;;;;;;;;;;;;;;+;
-xxXXXXxXx+;;;;;xxxxXXXX$$$$$$$$$$$$XXXXxxXxx++;;;;;;;;;;;;;+++;+;
- xXXXXXXX+;;;;;;;XXXXXX$$$$X$$$$$$$$X$$$$X+++;;;;;;;;;;;;+;++;;:
-  xXXXXXXx;;;;;;;x$$$$$$$$$$$$$$$XXXx$$$$+;;;;;;++;+++++++++;  ;
-    xX+xXX+;;   +x$$$$$$Xx$$$$$$$$X+$$$$+++++++; ;;++++++;++++;;
-   xXXx+XXx;;   ;+x$$$$$$$XX$$$XXX$$XX+++++++   ;;++++++    ;;
-        +xXXx+;     xxxXX$$$$$$$$XX$$x+++  ;   +++;+;++++
-                ;+++  x$$X+xXXxX$$X+; ;      +++;
-              ++++++  x$XXxX$$Xx+++++     ;++++;;
-          xXXX++xx+;xXXX$$$$$$$$Xx++++;;;+++++++++++;
-         X$$$$x++++x$$$$$$$$$$$X$x+xXxx+++++++;+++++++
-        x$$$$$Xx+++X$$$$$$$$$$XXXX$XXx+++;;+;++++++++;
-       +XXXXXXX+++XX$$$$$$$$$$$XXXxXx+++++++++XXX++++;
-       +XXXXX++++xXXXXXXXXXXxxXXXXx+++++++++:xXXX++++;
-       +XXXXX++++++++++;::::;+x++++++++++:::;XXX+++++;'
+MWWNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWM
+WNNNXKK000KK000000KKKKKK0KKK00KKKKKKKKKKKKK0000KKKKKKKKK0000000KKXNNNW
+NNWKdlccclolcccccccllcllccllcccloollllllllccclllllllllllccccccllco0WNN
+NNW0l:cok0K0o:::::clcccc::ccccccccccccccclcclccc:cllllllc::cccccclOWNN
+NNW0l:cldKNOl:::::clc:cc:::::ccclccccccccccclc::::llllllccccccccccOWNN
+NNW0oodolOXxc:::::clc:cc::::::::::::ccccc::ccclccccclllolcccccccclOWNN
+NNW0oxKKk0Kdc:::::clcccc:::::::::cccclcccc:::ccccc::llllllcccccccckWNN
+NNW0lcok0Okl::::::cllccc:::::::ccloooooooolc:::::::cllc:::ccccc:ccOWNN
+NNW0ooOOxk0kl:::::cll:cc:::::ccloollc::::codoc:::cccc::::cccc::cclOWNN
+NNW0oONkccOXxc::::clcccc:::ccldol::;;::coxkOkocccccc:::ccccc:clccckWNN
+NNW0oxKOdd00o:::::cccccc:ccclodc:::;;;:lO0OO0kocc::::cccc::::llc:ckWNN
+NNW0lcokOOkdlc:::::::::cccccodc:::::;;:cx00Okoc::::cccc::::::llccckWNN
+NNW0ooOKkdk0xl::::cloodddolodc::::::::::cdkxdoooooolc::::::::looooOWNN
+NNW0lcONK0Kxl:::coddddddddxdc::::::::::::cdxddddddxdoc:::::::looooOWNN
+NNW0lcONKO0Ol::coxdooooooolc::::::::::::::clooooooodxoc::::::lllllkWNN
+NNW0oo0XOokXklcoxdoodddoolc::::::;:::;::;::cloodddoodxoc::ccclllllOWNN
+NNW0odO0OkO0xllxxodxdoddoc::;::::::cc:::;:::coxdodxdoxxc::clllllloOWNN
+NNW0ll0N0xOOdldOkdkkl:lxo:::clodxkkkkxdolc:::oxl:lxkdkkoc:ccccccclOWNN
+NNW0lcON0xxoccx0OOOOocodc::coxkOOOOOOOOkxoc::cdocoOOOOOxc::::::::ckWNN
+NNW0ll0NkoxkocldkOxoclxo::lod:::xO00Okk:::llc:oxlcoxkkdl:::::::::ckWNN
+NNW0odO0OO0Oo::cclc::ldocldxkxxxxOOOOkOOdoxkdcodl::cllcccccccccccckWNN
+NNW0ooOKOxOOo::::::::cdxdd:kOkkkkOOOkkkOOOO:kkxxoc::cllllldkxodOOdoOWN
+NNW0lcONkoO0dc:::::ccokkxd::::::::::::::::::ook0Oxl::clllllKk0N0doOWNN
+NNW0lcON0OKOl::::cccccoxxxoc::cloooooolc::cdOOkdc::cllclld00k0NOlo0WNN
+NNW0ooOKxlO0d::cccc:::cldkkdl::dO0000Od::lkOOdl::::clc::cd0kokN0ll0WNN
+NNW0lcllccooccccc:::::ccoxkxxo::::::::::dkOOxolcc::llc:::lxOOO0Odo0WNN
+NNW0lc:::cllclc::cclodddddddxkkxddddddxkkkkxxdxddololc:::oOkxOKOoo0WNN
+NNWOlcccccllllcloddddddooddxxxxxkkkkkkxxxddxxdddddxxxolc:coooONOcl0WNN
+NNWOllllclollloddoooodddxxxxdoooddxxxxdoodddxxxxxdddddxoccdxx0NOcl0WNN
+NNWkccll:clloxxdllodddxxxddooooddddddxxdooooddddxxxdoodxddOkxOKOoo0WNN
+NNWkccll:cllokxlccclodxxdooooollcccccloddooooddddolcccoxxxOkdk0Odo0WNN
+NNWkccll:clloxdlcccloxxdoooolcc:cllllccclooooodxdolcccodoxK0x0NOll0WNN
+NNWkc:ll:clloxdccodoooxxololc:cloooooolc:coooodxooodxkOdccd0KXNOcl0WNN
+NNWkccll:clloxdlodoc:lxxoolc:codl::::ldoccclooxxl:coOK0xld00k0N0ol0WNN
+NNWkccll:cllllloolc::ldxollcloocc::::ccoolclloxdl::lddocldxdxOOxoo0WNN
+NNWkccll:cllll:::::::cxOOdoool::::::::::coddlcddc::llc:::lxOkkOxll0WNN
+NNWkc:ll:cllll:::::::cx0K0klc:::::::::::::odolodc::llc:::xXOlckXko0WNN
+NNWOlcllccllllcccccccclddolcccccccccccc:::clodolcccclc:::dK0olOKxo0WNN
+NNWOolllllllllllllllllllcccclllllllllllcccclccccccclcccc:cokkkkdcl0WNN
+NNW0doolllolllllcccllooccodddddollllllcllcc::::::::ccllccclxOO0klo0WNN
+NNW0oolllcllllc:::::cllllloodddolllllllooc:::::::::::llcclkX0dk0xo0WNN
+NNWOlllllcllll:::::::clllllloooollllllodolc:::::::::cllc:cxN0lcccl0WNN
+NNWOlllllcllllc::::::clllllllccllllllcloollcccccccllccc::o0NXOoc:l0WNN
+NNWOlllllcllcccccccccccclllllccllllllcc:::c::c:::cc::::::ldddoccco0WNN
+NNWXOkxdxxxxxxdxxxxxxxxkkxxxxxxxxxkkkkxdddddddddddddddddddddddddxONWNN
+MNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWM
+MMWWNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWMMM
 
+'
 # the big install
 sudo DEBIAN_FRONTEND=noninteractive apt update -y -qq > /dev/null 2>&1
 sudo DEBIAN_FRONTEND=noninteractive apt install -y -qq masscan curl terminator git python3-dev faketime apt-transport-https ca-certificates gnupg lsb-release build-essential pkg-config libssl-dev libkrb5-dev libclang-dev clang libgssapi-krb5-2 krb5-user cifs-utils > /dev/null 2>&1
