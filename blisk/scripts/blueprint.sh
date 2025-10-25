@@ -51,6 +51,7 @@ MMWWNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNWMMM
 echo " "
 echo "Starting Active Directory environment setup, optimized for Kali Linux..."
 echo " "
+
 echo "1. Updating package lists and installing core dependencies..."
 sudo DEBIAN_FRONTEND=noninteractive apt update -y -qq > /dev/null 2>&1
 sudo DEBIAN_FRONTEND=noninteractive apt install -y -qq masscan cifs-utils > /dev/null 2>&1
@@ -59,6 +60,13 @@ echo "2. Installing 'uv' package manager and updating PATH."
 curl -LsSf https://astral.sh/uv/install.sh | sh > /dev/null 2>&1
 export PATH="$HOME/.local/bin:$PATH"
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+
+echo " -> Installing + Updating Enum Tools "
+sudo apt update && sudo apt install nmap
+sudo apt update && sudo apt install netexec
+sudo apt update && sudo apt install dnsutils
+sudo apt update && sudo apt install ldap-utils
+
 echo "   -> Installing Python-based Active Directory tools via uv (NetExec, Certipy, Impacket, etc.)."
 uv tool install git+https://github.com/Pennyw0rth/NetExec.git -q
 uv tool install git+https://github.com/ly4k/Certipy.git -q
@@ -67,6 +75,7 @@ uv tool install git+https://github.com/CravateRouge/bloodyAD.git -q
 uv tool install git+https://github.com/dirkjanm/BloodHound.py.git@bloodhound-ce -q
 uv tool install git+https://github.com/adityatelange/evil-winrm-py -q
 echo "   -> Python AD tools installed."
+
 echo "3. Installing BloodHound Community Edition (CE) from apt."
 sudo DEBIAN_FRONTEND=noninteractive apt install -y -qq bloodhound > /dev/null 2>&1
 echo "   -> BloodHound package installed."
@@ -78,6 +87,7 @@ echo "      1. Open http://localhost:7474."
 echo "      2. Log in with the default Neo4j credentials: user: neo4j / password: neo4j."
 echo "      3. **Change the default password** when prompted."
 echo "      4. **IMPORTANT:** After changing the Neo4j password, you **must** update the BloodHound API config file with the new password: **sudo vim /etc/bhapi/bhapi.json**"
+
 echo "4. Configuring Zsh shell with Oh My Zsh and plugins."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) --unattended" >/dev/null 2>&1
 git clone -q https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -86,10 +96,12 @@ git clone -q https://github.com/zdharma-continuum/fast-syntax-highlighting ${ZSH
 sed -i 's/^plugins=(git)$/plugins=(git zsh-syntax-highlighting zsh-autosuggestions fast-syntax-highlighting)/' ~/.zshrc
 sed -i 's/robbyrussell/minimal/g' ~/.zshrc
 echo "   -> Zsh configuration updated with plugins and minimal theme."
+
 echo "5. Downloading RockYou wordlist."
 curl -sSLo ~/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 echo "   -> rockyou.txt downloaded to home directory."
 source ~/.zshrc
+
 echo " "
 echo "======================================================================="
 echo "SETUP COMPLETE!"
