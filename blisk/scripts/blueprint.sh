@@ -52,6 +52,9 @@ echo " "
 echo "Starting Active Directory environment setup, optimized for Kali Linux..."
 echo " "
 
+sudo apt update
+sudo apt full-upgrade -y
+
 echo "1. Updating package lists and installing core dependencies..."
 sudo DEBIAN_FRONTEND=noninteractive apt update -y -qq > /dev/null 2>&1
 sudo DEBIAN_FRONTEND=noninteractive apt install -y -qq masscan cifs-utils > /dev/null 2>&1
