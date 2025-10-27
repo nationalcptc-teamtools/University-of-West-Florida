@@ -30,3 +30,7 @@ Emum Steps:
 
 Full: `ldapsearch -H ldap://0.0.0.0 -x -b 'domainName'`
 
+Authenticated: `ldap://dc.domain.htb -Y GSSAPI -b "cn=users,dc=absolute,dc=htb" "user" "description"`
+
+
+
