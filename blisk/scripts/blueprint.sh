@@ -40,7 +40,7 @@ NNWkc:ll:cllll:::::::cx0K0klc:::::::::::::odolodc::llc:::xXOlckXko0WNN
 NNWOlcllccllllcccccccclddolcccccccccccc:::clodolcccclc:::dK0olOKxo0WNN
 NNWOolllllllllllllllllllcccclllllllllllcccclccccccclcccc:cokkkkdcl0WNN
 NNW0doolllolllllcccllooccodddddollllllcllcc::::::::ccllccclxOO0klo0WNN
-NNW0oolllcllllc:::::cllllloodddolllllllooc:::::::::::llcclkX0dk0xoWNN
+NNW0oolllcllllc:::::cllllloodddolllllllooc:::::::::::llcclkX0dk0xooWNN
 NNWOlllllcllll:::::::clllllloooollllllodolc:::::::::cllc:cxN0lcccl0WNN
 NNWOlllllcllllc::::::clllllllccllllllcloollcccccccllccc::o0NXOoc:l0WNN
 NNWOlllllcllcccccccccccclllllccllllllcc:::c::c:::cc::::::ldddoccco0WNN
