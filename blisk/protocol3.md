@@ -32,5 +32,25 @@ Full: `ldapsearch -H ldap://0.0.0.0 -x -b 'domainName'`
 
 Authenticated: `ldap://dc.domain.htb -Y GSSAPI -b "cn=users,dc=absolute,dc=htb" "user" "description"`
 
+# Bloodhound API: 
+1. Run Script (pickle short blueprint long)
+2. sudo bloodhound-setup
+3. Login to neo4j with default creds
+4. Change password
+5. sudo nano /etc/bhapi/bhapi.json change password
+6. ` bloodhound`
+7. Login with default creds and reset pass
+
+# Bloodhound Listener:
+1. Data needed:
+
+* Domain Name (-d)
+* Username (-u)
+* Password (-p)	
+* Name Server/DC IP (-ns)
+
+` bloodhound-python -c All -d [DOMAIN.FQDN] -u [USERNAME] -p '[PASSWORD]' -ns [DC_IP_ADDRESS] `
+
+
 
 
